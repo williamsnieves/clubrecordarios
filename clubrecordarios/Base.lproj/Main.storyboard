@@ -23,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="28" width="320" height="134"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UCg-K7-iuE" id="Zfm-8Q-tiE">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="prueba" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lc6-ss-o9d">
@@ -180,10 +180,10 @@
             </objects>
             <point key="canvasLocation" x="123.75" y="1178.8732394366198"/>
         </scene>
-        <!--View Controller-->
+        <!--Alliance View Controller-->
         <scene sceneID="dlk-VG-CiU">
             <objects>
-                <viewController id="xs7-Pt-g7H" sceneMemberID="viewController">
+                <viewController id="xs7-Pt-g7H" customClass="AllianceViewController" customModule="clubrecordarios" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ofM-e0-EOP"/>
                         <viewControllerLayoutGuide type="bottom" id="CU5-NG-vlf"/>
@@ -192,27 +192,53 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nacionales" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7q-FL-uJT">
-                                <rect key="frame" x="91" y="64" width="139" height="73"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="73" id="87w-fr-g4V"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="73" id="8tL-Zh-9tQ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="101" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="st3-sX-8xt">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="allianceData" rowHeight="134" id="qb0-it-WBy" customClass="AllianceCell" customModule="clubrecordarios" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="134"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qb0-it-WBy" id="fIy-op-cd0">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pruebas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WwR-bX-HU1">
+                                                    <rect key="frame" x="80" y="28" width="161" height="77"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="WwR-bX-HU1" firstAttribute="top" secondItem="fIy-op-cd0" secondAttribute="topMargin" constant="20" id="Bbf-L4-quP"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="WwR-bX-HU1" secondAttribute="bottom" constant="20" id="CL4-yi-bfn"/>
+                                                <constraint firstItem="WwR-bX-HU1" firstAttribute="top" secondItem="fIy-op-cd0" secondAttribute="topMargin" constant="20" id="H9E-wD-qVX"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="WwR-bX-HU1" secondAttribute="trailing" constant="71" id="LnQ-W8-PLI"/>
+                                                <constraint firstItem="WwR-bX-HU1" firstAttribute="leading" secondItem="fIy-op-cd0" secondAttribute="leadingMargin" constant="72" id="S7o-uM-LBu"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="WwR-bX-HU1" secondAttribute="trailing" constant="71" id="T6q-zt-p6d"/>
+                                                <constraint firstItem="WwR-bX-HU1" firstAttribute="leading" secondItem="fIy-op-cd0" secondAttribute="leadingMargin" constant="72" id="eLE-AS-8dO"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="WwR-bX-HU1" secondAttribute="bottom" constant="20" id="u6c-kr-UTC"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="titleAllianceMain" destination="WwR-bX-HU1" id="AA9-AH-652"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="q7q-FL-uJT" firstAttribute="top" secondItem="ofM-e0-EOP" secondAttribute="bottom" id="At9-Lv-qLn"/>
-                            <constraint firstItem="q7q-FL-uJT" firstAttribute="leading" secondItem="eFI-SG-rbK" secondAttribute="leadingMargin" constant="114" id="bOB-AN-AxF"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="q7q-FL-uJT" secondAttribute="trailing" constant="115" id="cHO-6T-LAr"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="q7q-FL-uJT" secondAttribute="trailing" constant="74" id="fGe-Qz-5fo"/>
-                            <constraint firstItem="q7q-FL-uJT" firstAttribute="top" secondItem="ofM-e0-EOP" secondAttribute="bottom" id="kbW-B3-u7U"/>
-                            <constraint firstItem="q7q-FL-uJT" firstAttribute="leading" secondItem="eFI-SG-rbK" secondAttribute="leadingMargin" constant="75" id="qs2-YN-Z7f"/>
+                            <constraint firstItem="CU5-NG-vlf" firstAttribute="top" secondItem="st3-sX-8xt" secondAttribute="bottom" id="BVi-Kj-IPb"/>
+                            <constraint firstItem="st3-sX-8xt" firstAttribute="top" secondItem="ofM-e0-EOP" secondAttribute="bottom" id="HLp-Vt-haA"/>
+                            <constraint firstAttribute="trailing" secondItem="st3-sX-8xt" secondAttribute="trailing" id="OCp-Iu-Jtd"/>
+                            <constraint firstItem="st3-sX-8xt" firstAttribute="leading" secondItem="eFI-SG-rbK" secondAttribute="leading" id="i3w-0G-7Jz"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableAllianceMain" destination="st3-sX-8xt" id="g9A-Xa-kfs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5YF-6S-tIZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

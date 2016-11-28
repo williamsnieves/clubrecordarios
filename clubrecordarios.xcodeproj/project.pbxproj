@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDBDE6591DECA1A7001A3F73 /* AllianceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBDE6581DECA1A7001A3F73 /* AllianceViewController.swift */; };
+		EDBDE65C1DECA327001A3F73 /* AllianceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBDE65B1DECA327001A3F73 /* AllianceModel.swift */; };
+		EDBDE65F1DECA52F001A3F73 /* AllianceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBDE65E1DECA52F001A3F73 /* AllianceCell.swift */; };
 		EDCAB8D21DE77BE60039260F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCAB8D11DE77BE60039260F /* AppDelegate.swift */; };
 		EDCAB8D41DE77BE60039260F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCAB8D31DE77BE60039260F /* ViewController.swift */; };
 		EDCAB8D71DE77BE60039260F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCAB8D51DE77BE60039260F /* Main.storyboard */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EDBDE6581DECA1A7001A3F73 /* AllianceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllianceViewController.swift; sourceTree = "<group>"; };
+		EDBDE65B1DECA327001A3F73 /* AllianceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllianceModel.swift; sourceTree = "<group>"; };
+		EDBDE65E1DECA52F001A3F73 /* AllianceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllianceCell.swift; sourceTree = "<group>"; };
 		EDCAB8CE1DE77BE50039260F /* clubrecordarios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clubrecordarios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCAB8D11DE77BE60039260F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDCAB8D31DE77BE60039260F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +51,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EDBDE65A1DECA30D001A3F73 /* alliance */ = {
+			isa = PBXGroup;
+			children = (
+				EDBDE65B1DECA327001A3F73 /* AllianceModel.swift */,
+			);
+			name = alliance;
+			sourceTree = "<group>";
+		};
+		EDBDE65D1DECA4FA001A3F73 /* alliance */ = {
+			isa = PBXGroup;
+			children = (
+				EDBDE65E1DECA52F001A3F73 /* AllianceCell.swift */,
+			);
+			name = alliance;
+			sourceTree = "<group>";
+		};
 		EDCAB8C51DE77BE50039260F = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +102,7 @@
 		EDE961E11DEB106500CB7758 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EDBDE65D1DECA4FA001A3F73 /* alliance */,
 				EDE961E41DEB3AA800CB7758 /* RecordarCell.swift */,
 			);
 			name = View;
@@ -91,6 +114,7 @@
 				EDE961E81DEB56CD00CB7758 /* CourseViewController.swift */,
 				EDE896921DEB697600DA7980 /* StoreViewController.swift */,
 				EDE896941DEB6A1600DA7980 /* EventsViewController.swift */,
+				EDBDE6581DECA1A7001A3F73 /* AllianceViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -98,6 +122,7 @@
 		EDE961E31DEB107500CB7758 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EDBDE65A1DECA30D001A3F73 /* alliance */,
 				EDE961E61DEB3E2200CB7758 /* MainModel.swift */,
 			);
 			name = Model;
@@ -176,12 +201,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDE961E71DEB3E2200CB7758 /* MainModel.swift in Sources */,
+				EDBDE65C1DECA327001A3F73 /* AllianceModel.swift in Sources */,
 				EDCAB8D41DE77BE60039260F /* ViewController.swift in Sources */,
 				EDE896931DEB697600DA7980 /* StoreViewController.swift in Sources */,
 				EDCAB8D21DE77BE60039260F /* AppDelegate.swift in Sources */,
 				EDE896951DEB6A1600DA7980 /* EventsViewController.swift in Sources */,
+				EDBDE65F1DECA52F001A3F73 /* AllianceCell.swift in Sources */,
 				EDE961E91DEB56CD00CB7758 /* CourseViewController.swift in Sources */,
 				EDE961E51DEB3AA800CB7758 /* RecordarCell.swift in Sources */,
+				EDBDE6591DECA1A7001A3F73 /* AllianceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
