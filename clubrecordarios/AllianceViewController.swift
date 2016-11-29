@@ -16,10 +16,10 @@ class AllianceViewController: UIViewController, UITableViewDelegate, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let item1 = AllianceModel(title: "alliance1")
-        let item2 = AllianceModel(title: "alliance2")
-        let item3 = AllianceModel(title: "alliance3")
-        let item4 = AllianceModel(title: "alliance4")
+        let item1 = AllianceModel(title: "Alianzas Nacionales")
+        let item2 = AllianceModel(title: "Alianzas Barranquillas")
+        let item3 = AllianceModel(title: "Alianzas Bogota")
+        let item4 = AllianceModel(title: "Alianzas Boyaca")
         
         allianceLists.append(item1)
         allianceLists.append(item2)
