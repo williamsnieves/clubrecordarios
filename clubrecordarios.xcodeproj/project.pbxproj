@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED37AE2C1DF6DFA40096E7F7 /* CartagenaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37AE2B1DF6DFA40096E7F7 /* CartagenaModel.swift */; };
+		ED37AE2F1DF6E4980096E7F7 /* CartagenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37AE2E1DF6E4980096E7F7 /* CartagenaViewController.swift */; };
+		ED37AE321DF6F39B0096E7F7 /* CartagenaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37AE311DF6F39B0096E7F7 /* CartagenaCell.swift */; };
+		ED37AE351DF6FFF10096E7F7 /* ValleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37AE341DF6FFF10096E7F7 /* ValleModel.swift */; };
+		ED37AE381DF700730096E7F7 /* ValleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37AE371DF700730096E7F7 /* ValleViewController.swift */; };
+		ED37AE3B1DF700990096E7F7 /* ValleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37AE3A1DF700990096E7F7 /* ValleCell.swift */; };
+		ED37AE401DF70A530096E7F7 /* PastoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37AE3F1DF70A530096E7F7 /* PastoModel.swift */; };
+		ED37AE431DF70A800096E7F7 /* PastoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37AE421DF70A800096E7F7 /* PastoViewController.swift */; };
+		ED37AE461DF70B0A0096E7F7 /* PastoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37AE451DF70B0A0096E7F7 /* PastoCell.swift */; };
 		ED447B6F1DEE26D800383EDA /* NationalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED447B6E1DEE26D800383EDA /* NationalViewController.swift */; };
 		ED447B711DEE27F400383EDA /* NationaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED447B701DEE27F400383EDA /* NationaModel.swift */; };
 		ED447B741DEE2B9B00383EDA /* NationalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED447B731DEE2B9B00383EDA /* NationalCell.swift */; };
 		ED7358431DEF6954006160FB /* BarranquillaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7358421DEF6954006160FB /* BarranquillaViewController.swift */; };
 		ED7358481DEF6DAA006160FB /* BarranquillaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7358471DEF6DAA006160FB /* BarranquillaModel.swift */; };
 		ED73584B1DEF6E35006160FB /* BarranquillaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73584A1DEF6E35006160FB /* BarranquillaCell.swift */; };
+		ED99034B1DF6321400116258 /* CaliModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99034A1DF6321400116258 /* CaliModel.swift */; };
+		ED99034E1DF6326100116258 /* CaliViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99034D1DF6326100116258 /* CaliViewController.swift */; };
+		ED9903511DF6329200116258 /* CaliCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9903501DF6329200116258 /* CaliCell.swift */; };
+		EDB889FF1DF1B1A700D17FCF /* BoyacaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB889FE1DF1B1A700D17FCF /* BoyacaModel.swift */; };
+		EDB88A021DF1B20600D17FCF /* BoyacaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB88A011DF1B20600D17FCF /* BoyacaViewController.swift */; };
+		EDB88A051DF1B23C00D17FCF /* BoyacaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB88A041DF1B23C00D17FCF /* BoyacaCell.swift */; };
 		EDBDE6591DECA1A7001A3F73 /* AllianceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBDE6581DECA1A7001A3F73 /* AllianceViewController.swift */; };
 		EDBDE65C1DECA327001A3F73 /* AllianceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBDE65B1DECA327001A3F73 /* AllianceModel.swift */; };
 		EDBDE65F1DECA52F001A3F73 /* AllianceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBDE65E1DECA52F001A3F73 /* AllianceCell.swift */; };
@@ -32,12 +47,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED37AE2B1DF6DFA40096E7F7 /* CartagenaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartagenaModel.swift; sourceTree = "<group>"; };
+		ED37AE2E1DF6E4980096E7F7 /* CartagenaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartagenaViewController.swift; sourceTree = "<group>"; };
+		ED37AE311DF6F39B0096E7F7 /* CartagenaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartagenaCell.swift; sourceTree = "<group>"; };
+		ED37AE341DF6FFF10096E7F7 /* ValleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValleModel.swift; sourceTree = "<group>"; };
+		ED37AE371DF700730096E7F7 /* ValleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValleViewController.swift; sourceTree = "<group>"; };
+		ED37AE3A1DF700990096E7F7 /* ValleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValleCell.swift; sourceTree = "<group>"; };
+		ED37AE3F1DF70A530096E7F7 /* PastoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastoModel.swift; sourceTree = "<group>"; };
+		ED37AE421DF70A800096E7F7 /* PastoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastoViewController.swift; sourceTree = "<group>"; };
+		ED37AE451DF70B0A0096E7F7 /* PastoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastoCell.swift; sourceTree = "<group>"; };
 		ED447B6E1DEE26D800383EDA /* NationalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NationalViewController.swift; sourceTree = "<group>"; };
 		ED447B701DEE27F400383EDA /* NationaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NationaModel.swift; sourceTree = "<group>"; };
 		ED447B731DEE2B9B00383EDA /* NationalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NationalCell.swift; sourceTree = "<group>"; };
 		ED7358421DEF6954006160FB /* BarranquillaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarranquillaViewController.swift; sourceTree = "<group>"; };
 		ED7358471DEF6DAA006160FB /* BarranquillaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarranquillaModel.swift; sourceTree = "<group>"; };
 		ED73584A1DEF6E35006160FB /* BarranquillaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarranquillaCell.swift; sourceTree = "<group>"; };
+		ED99034A1DF6321400116258 /* CaliModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaliModel.swift; sourceTree = "<group>"; };
+		ED99034D1DF6326100116258 /* CaliViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaliViewController.swift; sourceTree = "<group>"; };
+		ED9903501DF6329200116258 /* CaliCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaliCell.swift; sourceTree = "<group>"; };
+		EDB889FE1DF1B1A700D17FCF /* BoyacaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoyacaModel.swift; sourceTree = "<group>"; };
+		EDB88A011DF1B20600D17FCF /* BoyacaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoyacaViewController.swift; sourceTree = "<group>"; };
+		EDB88A041DF1B23C00D17FCF /* BoyacaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoyacaCell.swift; sourceTree = "<group>"; };
 		EDBDE6581DECA1A7001A3F73 /* AllianceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllianceViewController.swift; sourceTree = "<group>"; };
 		EDBDE65B1DECA327001A3F73 /* AllianceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllianceModel.swift; sourceTree = "<group>"; };
 		EDBDE65E1DECA52F001A3F73 /* AllianceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllianceCell.swift; sourceTree = "<group>"; };
@@ -69,6 +99,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED37AE2A1DF6DF3F0096E7F7 /* cartagena */ = {
+			isa = PBXGroup;
+			children = (
+				ED37AE2B1DF6DFA40096E7F7 /* CartagenaModel.swift */,
+			);
+			name = cartagena;
+			sourceTree = "<group>";
+		};
+		ED37AE2D1DF6E4100096E7F7 /* cartagena */ = {
+			isa = PBXGroup;
+			children = (
+				ED37AE2E1DF6E4980096E7F7 /* CartagenaViewController.swift */,
+			);
+			name = cartagena;
+			sourceTree = "<group>";
+		};
+		ED37AE301DF6F37D0096E7F7 /* cartagena */ = {
+			isa = PBXGroup;
+			children = (
+				ED37AE311DF6F39B0096E7F7 /* CartagenaCell.swift */,
+			);
+			name = cartagena;
+			sourceTree = "<group>";
+		};
+		ED37AE331DF6FF930096E7F7 /* valle */ = {
+			isa = PBXGroup;
+			children = (
+				ED37AE341DF6FFF10096E7F7 /* ValleModel.swift */,
+			);
+			name = valle;
+			sourceTree = "<group>";
+		};
+		ED37AE361DF700060096E7F7 /* valle */ = {
+			isa = PBXGroup;
+			children = (
+				ED37AE371DF700730096E7F7 /* ValleViewController.swift */,
+			);
+			name = valle;
+			sourceTree = "<group>";
+		};
+		ED37AE391DF7007F0096E7F7 /* valle */ = {
+			isa = PBXGroup;
+			children = (
+				ED37AE3A1DF700990096E7F7 /* ValleCell.swift */,
+			);
+			name = valle;
+			sourceTree = "<group>";
+		};
+		ED37AE3C1DF70A330096E7F7 /* pasto */ = {
+			isa = PBXGroup;
+			children = (
+				ED37AE3F1DF70A530096E7F7 /* PastoModel.swift */,
+			);
+			name = pasto;
+			sourceTree = "<group>";
+		};
+		ED37AE411DF70A680096E7F7 /* pasto */ = {
+			isa = PBXGroup;
+			children = (
+				ED37AE421DF70A800096E7F7 /* PastoViewController.swift */,
+			);
+			name = pasto;
+			sourceTree = "<group>";
+		};
+		ED37AE441DF70AED0096E7F7 /* pasto */ = {
+			isa = PBXGroup;
+			children = (
+				ED37AE451DF70B0A0096E7F7 /* PastoCell.swift */,
+			);
+			name = pasto;
+			sourceTree = "<group>";
+		};
 		ED447B6C1DEE255F00383EDA /* national */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +217,54 @@
 				ED73584A1DEF6E35006160FB /* BarranquillaCell.swift */,
 			);
 			name = barranquilla;
+			sourceTree = "<group>";
+		};
+		ED9903491DF631D500116258 /* cali */ = {
+			isa = PBXGroup;
+			children = (
+				ED99034A1DF6321400116258 /* CaliModel.swift */,
+			);
+			name = cali;
+			sourceTree = "<group>";
+		};
+		ED99034C1DF6324100116258 /* cali */ = {
+			isa = PBXGroup;
+			children = (
+				ED99034D1DF6326100116258 /* CaliViewController.swift */,
+			);
+			name = cali;
+			sourceTree = "<group>";
+		};
+		ED99034F1DF6327100116258 /* cali */ = {
+			isa = PBXGroup;
+			children = (
+				ED9903501DF6329200116258 /* CaliCell.swift */,
+			);
+			name = cali;
+			sourceTree = "<group>";
+		};
+		EDB889FD1DF1B16C00D17FCF /* boyaca */ = {
+			isa = PBXGroup;
+			children = (
+				EDB889FE1DF1B1A700D17FCF /* BoyacaModel.swift */,
+			);
+			name = boyaca;
+			sourceTree = "<group>";
+		};
+		EDB88A001DF1B1CD00D17FCF /* boyaca */ = {
+			isa = PBXGroup;
+			children = (
+				EDB88A011DF1B20600D17FCF /* BoyacaViewController.swift */,
+			);
+			name = boyaca;
+			sourceTree = "<group>";
+		};
+		EDB88A031DF1B21C00D17FCF /* boyaca */ = {
+			isa = PBXGroup;
+			children = (
+				EDB88A041DF1B23C00D17FCF /* BoyacaCell.swift */,
+			);
+			name = boyaca;
 			sourceTree = "<group>";
 		};
 		EDBDE65A1DECA30D001A3F73 /* alliance */ = {
@@ -168,6 +318,11 @@
 		EDE961E11DEB106500CB7758 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ED37AE441DF70AED0096E7F7 /* pasto */,
+				ED37AE391DF7007F0096E7F7 /* valle */,
+				ED37AE301DF6F37D0096E7F7 /* cartagena */,
+				ED99034F1DF6327100116258 /* cali */,
+				EDB88A031DF1B21C00D17FCF /* boyaca */,
 				EDF593B21DF0D0E300712AB1 /* bogota */,
 				ED7358491DEF6DD6006160FB /* barranquilla */,
 				ED447B721DEE2ACD00383EDA /* national */,
@@ -180,6 +335,11 @@
 		EDE961E21DEB106E00CB7758 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				ED37AE411DF70A680096E7F7 /* pasto */,
+				ED37AE361DF700060096E7F7 /* valle */,
+				ED37AE2D1DF6E4100096E7F7 /* cartagena */,
+				ED99034C1DF6324100116258 /* cali */,
+				EDB88A001DF1B1CD00D17FCF /* boyaca */,
 				EDF593AC1DF0CF6300712AB1 /* bogota */,
 				ED7358411DEF68D4006160FB /* barranquilla */,
 				ED447B6D1DEE25F400383EDA /* national */,
@@ -194,6 +354,11 @@
 		EDE961E31DEB107500CB7758 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ED37AE3C1DF70A330096E7F7 /* pasto */,
+				ED37AE331DF6FF930096E7F7 /* valle */,
+				ED37AE2A1DF6DF3F0096E7F7 /* cartagena */,
+				ED9903491DF631D500116258 /* cali */,
+				EDB889FD1DF1B16C00D17FCF /* boyaca */,
 				EDF593AF1DF0CFD600712AB1 /* bogota */,
 				ED7358441DEF6D73006160FB /* barranquilla */,
 				ED447B6C1DEE255F00383EDA /* national */,
@@ -301,23 +466,38 @@
 			files = (
 				EDF593B41DF0D10100712AB1 /* BogotaCell.swift in Sources */,
 				EDF593AE1DF0CFBB00712AB1 /* BogotaViewController.swift in Sources */,
+				ED99034B1DF6321400116258 /* CaliModel.swift in Sources */,
+				ED37AE401DF70A530096E7F7 /* PastoModel.swift in Sources */,
 				EDE961E71DEB3E2200CB7758 /* MainModel.swift in Sources */,
+				EDB88A021DF1B20600D17FCF /* BoyacaViewController.swift in Sources */,
+				ED37AE3B1DF700990096E7F7 /* ValleCell.swift in Sources */,
+				EDB88A051DF1B23C00D17FCF /* BoyacaCell.swift in Sources */,
 				EDBDE65C1DECA327001A3F73 /* AllianceModel.swift in Sources */,
 				EDCAB8D41DE77BE60039260F /* ViewController.swift in Sources */,
 				ED447B6F1DEE26D800383EDA /* NationalViewController.swift in Sources */,
+				ED37AE351DF6FFF10096E7F7 /* ValleModel.swift in Sources */,
 				ED447B711DEE27F400383EDA /* NationaModel.swift in Sources */,
 				EDE896931DEB697600DA7980 /* StoreViewController.swift in Sources */,
+				ED9903511DF6329200116258 /* CaliCell.swift in Sources */,
+				ED37AE2C1DF6DFA40096E7F7 /* CartagenaModel.swift in Sources */,
+				ED99034E1DF6326100116258 /* CaliViewController.swift in Sources */,
 				ED7358431DEF6954006160FB /* BarranquillaViewController.swift in Sources */,
 				ED7358481DEF6DAA006160FB /* BarranquillaModel.swift in Sources */,
+				ED37AE321DF6F39B0096E7F7 /* CartagenaCell.swift in Sources */,
 				EDCAB8D21DE77BE60039260F /* AppDelegate.swift in Sources */,
 				EDE896951DEB6A1600DA7980 /* EventsViewController.swift in Sources */,
 				ED447B741DEE2B9B00383EDA /* NationalCell.swift in Sources */,
+				ED37AE2F1DF6E4980096E7F7 /* CartagenaViewController.swift in Sources */,
 				EDBDE65F1DECA52F001A3F73 /* AllianceCell.swift in Sources */,
+				ED37AE461DF70B0A0096E7F7 /* PastoCell.swift in Sources */,
 				EDF593B11DF0CFE800712AB1 /* BogotaModel.swift in Sources */,
 				EDE961E91DEB56CD00CB7758 /* CourseViewController.swift in Sources */,
+				EDB889FF1DF1B1A700D17FCF /* BoyacaModel.swift in Sources */,
 				EDE961E51DEB3AA800CB7758 /* RecordarCell.swift in Sources */,
+				ED37AE381DF700730096E7F7 /* ValleViewController.swift in Sources */,
 				EDBDE6591DECA1A7001A3F73 /* AllianceViewController.swift in Sources */,
 				ED73584B1DEF6E35006160FB /* BarranquillaCell.swift in Sources */,
+				ED37AE431DF70A800096E7F7 /* PastoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

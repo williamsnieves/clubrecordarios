@@ -20,11 +20,19 @@ class AllianceViewController: UIViewController, UITableViewDelegate, UITableView
         let item2 = AllianceModel(title: "Alianzas Barranquillas")
         let item3 = AllianceModel(title: "Alianzas Bogota")
         let item4 = AllianceModel(title: "Alianzas Boyaca")
+        let item5 = AllianceModel(title: "Alianzas Cali")
+        let item6 = AllianceModel(title: "Alianzas Cartagena")
+        let item7 = AllianceModel(title: "Alianzas Valle")
+        let item8 = AllianceModel(title: "Alianzas Pasto")
         
         allianceLists.append(item1)
         allianceLists.append(item2)
         allianceLists.append(item3)
         allianceLists.append(item4)
+        allianceLists.append(item5)
+        allianceLists.append(item6)
+        allianceLists.append(item7)
+        allianceLists.append(item8)
         
         tableAllianceMain.delegate = self
         tableAllianceMain.dataSource = self
