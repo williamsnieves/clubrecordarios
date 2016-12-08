@@ -23,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="28" width="320" height="134"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UCg-K7-iuE" id="Zfm-8Q-tiE">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="prueba" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lc6-ss-o9d">
@@ -200,7 +200,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="134"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qb0-it-WBy" id="fIy-op-cd0">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pruebas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WwR-bX-HU1">
@@ -268,11 +268,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="nationalData" rowHeight="134" id="WD6-ph-EE3" customClass="NationalCell" customModule="clubrecordarios" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="nationalData" rowHeight="134" id="WD6-ph-EE3" customClass="NationalCell" customModule="clubrecordarios" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="134"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WD6-ph-EE3" id="KWW-r4-gZ5">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4nU-sU-r07">
@@ -306,11 +306,74 @@
                     </view>
                     <connections>
                         <outlet property="tableNationalMain" destination="xM9-Ok-Ch7" id="wkp-VA-PBX"/>
+                        <segue destination="t1T-k3-kZd" kind="show" identifier="detailNational" id="EI3-Cu-ZZq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lHx-2N-BTX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2596.875" y="-3019.0140845070423"/>
+        </scene>
+        <!--Detail National View Controller-->
+        <scene sceneID="Sdz-Pf-jR3">
+            <objects>
+                <viewController id="t1T-k3-kZd" customClass="DetailNationalViewController" customModule="clubrecordarios" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ovd-ez-O2K"/>
+                        <viewControllerLayoutGuide type="bottom" id="ovO-6h-jEh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tkG-K0-hQ8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEn-aY-u9Z">
+                                <rect key="frame" x="16" y="345" width="288" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_phone" translatesAutoresizingMaskIntoConstraints="NO" id="KcR-BD-dxv">
+                                <rect key="frame" x="16" y="498" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_email" translatesAutoresizingMaskIntoConstraints="NO" id="bou-m8-Yu3">
+                                <rect key="frame" x="138" y="498" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_maps" translatesAutoresizingMaskIntoConstraints="NO" id="wwQ-YX-MnT">
+                                <rect key="frame" x="260" y="498" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="L90-tV-vw1">
+                                <rect key="frame" x="16" y="390" width="288" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alianzas" translatesAutoresizingMaskIntoConstraints="NO" id="Hea-pl-emq">
+                                <rect key="frame" x="0.0" y="64" width="320" height="264"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="264" id="i3b-oT-s8P"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Hea-pl-emq" firstAttribute="leading" secondItem="tkG-K0-hQ8" secondAttribute="leading" id="54j-BW-yZj"/>
+                            <constraint firstAttribute="trailing" secondItem="Hea-pl-emq" secondAttribute="trailing" id="KLw-Tw-pry"/>
+                            <constraint firstItem="Hea-pl-emq" firstAttribute="top" secondItem="Ovd-ez-O2K" secondAttribute="bottom" id="jn2-pH-Icf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionDetailNational" destination="L90-tV-vw1" id="q29-3V-p8A"/>
+                        <outlet property="titleNationalMain" destination="nEn-aY-u9Z" id="mg9-Ht-QsI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cf4-ao-dc9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3624.375" y="-3279.929577464789"/>
         </scene>
         <!--Barranquilla View Controller-->
         <scene sceneID="PwO-3T-5CD">
@@ -332,7 +395,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="134"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SYD-tg-v7T" id="lT6-v8-Gpq">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2y-Xk-xkc">
@@ -366,11 +429,30 @@
                     </view>
                     <connections>
                         <outlet property="tableBarranquillaMain" destination="kQH-Vq-lII" id="0QD-wK-Hzs"/>
+                        <segue destination="x2z-9O-sch" kind="show" identifier="detailBarranquilla" id="QYj-xv-ECL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cNp-Za-Qw7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2596.875" y="-2144.3661971830984"/>
+        </scene>
+        <!--Detail Barranquilla View Controller-->
+        <scene sceneID="Vw5-U6-cda">
+            <objects>
+                <viewController id="x2z-9O-sch" customClass="DetailBarranquillaViewController" customModule="clubrecordarios" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="avF-RW-YpH"/>
+                        <viewControllerLayoutGuide type="bottom" id="dDX-OJ-vrX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eRr-nV-HjA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7tp-zN-1Us" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3748" y="-2221"/>
         </scene>
         <!--Bogota View Controller-->
         <scene sceneID="4fe-y5-9Z8">
@@ -392,7 +474,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="134"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TZw-ec-cL7" id="Rc1-5E-OHM">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72g-gX-8Cn">
@@ -426,11 +508,30 @@
                     </view>
                     <connections>
                         <outlet property="tableBogotaMain" destination="nrq-pS-2OM" id="bqF-f3-xQg"/>
+                        <segue destination="681-j0-S76" kind="show" identifier="detailBogota" id="Ux8-j0-qEv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UCJ-Kb-IqL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2596.875" y="-1163.0281690140846"/>
+        </scene>
+        <!--Bogota View Controller-->
+        <scene sceneID="AWO-1l-ItY">
+            <objects>
+                <viewController id="681-j0-S76" customClass="BogotaViewController" customModule="clubrecordarios" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ObD-gZ-MDg"/>
+                        <viewControllerLayoutGuide type="bottom" id="MG4-zK-hdL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ejj-np-Q9D">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zN0-Oa-4tQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3696" y="-1320"/>
         </scene>
         <!--Boyaca View Controller-->
         <scene sceneID="b7K-c4-qgJ">
@@ -448,11 +549,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="boyacaData" rowHeight="134" id="1ZE-3N-hbc" customClass="BoyacaCell" customModule="clubrecordarios" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="boyacaData" rowHeight="134" id="1ZE-3N-hbc" customClass="BoyacaCell" customModule="clubrecordarios" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="134"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1ZE-3N-hbc" id="35w-b6-cZV">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5X-Nm-3Sc">
@@ -486,11 +587,30 @@
                     </view>
                     <connections>
                         <outlet property="tableBoyacaMain" destination="r4T-3E-gJV" id="iOu-mX-liI"/>
+                        <segue destination="3bJ-Pu-zlw" kind="show" identifier="detailBoyaca" id="45A-WU-gvk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lnH-C5-uSo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2778.75" y="-405.63380281690144"/>
+        </scene>
+        <!--Detail Boyaca View Controller-->
+        <scene sceneID="zfG-ct-dY4">
+            <objects>
+                <viewController id="3bJ-Pu-zlw" customClass="DetailBoyacaViewController" customModule="clubrecordarios" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="spu-0q-9xV"/>
+                        <viewControllerLayoutGuide type="bottom" id="uVf-1u-xct"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JA2-AF-KuQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4jN-3V-TeJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3967" y="-453"/>
         </scene>
         <!--Cali View Controller-->
         <scene sceneID="KQy-x1-8zR">
@@ -508,11 +628,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="caliData" rowHeight="134" id="XtU-CP-9o2" customClass="CaliCell" customModule="clubrecordarios" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="caliData" rowHeight="134" id="XtU-CP-9o2" customClass="CaliCell" customModule="clubrecordarios" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="134"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XtU-CP-9o2" id="kIZ-3S-ckO">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IjW-YH-RsE">
@@ -546,11 +666,30 @@
                     </view>
                     <connections>
                         <outlet property="tableCaliMain" destination="t6w-0y-goN" id="oR9-lH-v55"/>
+                        <segue destination="W9N-QI-qxz" kind="show" identifier="detailCali" id="EeB-0W-zBe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uDh-xV-NhA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2671.875" y="446.83098591549299"/>
+        </scene>
+        <!--Detail Cali View Controller-->
+        <scene sceneID="GNI-x5-Xy3">
+            <objects>
+                <viewController id="W9N-QI-qxz" customClass="DetailCaliViewController" customModule="clubrecordarios" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wIm-Ub-Ne3"/>
+                        <viewControllerLayoutGuide type="bottom" id="LE7-fK-0vB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dju-9k-sZa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1MV-HS-Zs4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3967" y="443"/>
         </scene>
         <!--Cartagena View Controller-->
         <scene sceneID="YwB-sj-3rn">
@@ -568,7 +707,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cartagenaData" rowHeight="134" id="jRv-dF-zoY" customClass="CartagenaCell" customModule="clubrecordarios" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cartagenaData" rowHeight="134" id="jRv-dF-zoY" customClass="CartagenaCell" customModule="clubrecordarios" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="134"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jRv-dF-zoY" id="xhV-7e-L5e">
@@ -606,11 +745,30 @@
                     </view>
                     <connections>
                         <outlet property="tableCartagenaMain" destination="SQz-bb-NMQ" id="Dgr-jm-FBp"/>
+                        <segue destination="3vb-f8-Tn0" kind="show" identifier="detailCartagena" id="MMK-C9-tlh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aNl-c1-2Eb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2596.875" y="1391.1971830985915"/>
+        </scene>
+        <!--Cartagena View Controller-->
+        <scene sceneID="FTT-cP-4ZP">
+            <objects>
+                <viewController id="3vb-f8-Tn0" customClass="CartagenaViewController" customModule="clubrecordarios" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vgg-Cq-Qpn"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Pf-hT-xel"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EVD-GI-M8M">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yHi-sR-hgU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3824" y="1318"/>
         </scene>
         <!--Valle View Controller-->
         <scene sceneID="ADL-id-xTX">
@@ -628,7 +786,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="valleData" rowHeight="134" id="Tfy-Bx-gfj" customClass="ValleCell" customModule="clubrecordarios" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="valleData" rowHeight="134" id="Tfy-Bx-gfj" customClass="ValleCell" customModule="clubrecordarios" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="134"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tfy-Bx-gfj" id="14m-ep-qit">
@@ -666,11 +824,30 @@
                     </view>
                     <connections>
                         <outlet property="tableValleMain" destination="qNU-48-V5s" id="4Ux-ga-C4h"/>
+                        <segue destination="vzj-fL-xaj" kind="show" identifier="detailValle" id="vhG-21-Jwi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rp6-8A-Lz6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2617.5" y="2270.0704225352115"/>
+        </scene>
+        <!--Detail Valle View Controller-->
+        <scene sceneID="1rH-ew-cfL">
+            <objects>
+                <viewController id="vzj-fL-xaj" customClass="DetailValleViewController" customModule="clubrecordarios" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zTa-4v-4jm"/>
+                        <viewControllerLayoutGuide type="bottom" id="jw6-am-D9L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uE4-Nb-0QL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9w2-0g-iGa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3801" y="2190"/>
         </scene>
         <!--Pasto View Controller-->
         <scene sceneID="qkb-bE-7bi">
@@ -688,7 +865,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="pastoData" rowHeight="134" id="EQw-9E-YQB" customClass="PastoCell" customModule="clubrecordarios" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="pastoData" rowHeight="134" id="EQw-9E-YQB" customClass="PastoCell" customModule="clubrecordarios" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="134"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EQw-9E-YQB" id="sFC-Cw-woI">
@@ -726,11 +903,30 @@
                     </view>
                     <connections>
                         <outlet property="tablePastoMain" destination="Y9Z-mL-RNq" id="TDB-fV-7Vs"/>
+                        <segue destination="Eev-mV-dnc" kind="show" identifier="detailPasto" id="fwe-o5-1po"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gWu-OA-aoe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2572.5" y="3121.4788732394368"/>
+        </scene>
+        <!--Detail Pasto View Controller-->
+        <scene sceneID="tvS-Nd-aZA">
+            <objects>
+                <viewController id="Eev-mV-dnc" customClass="DetailPastoViewController" customModule="clubrecordarios" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="agq-Dx-hTX"/>
+                        <viewControllerLayoutGuide type="bottom" id="lHg-Ex-6gf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nbN-FS-jXc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fcV-69-WBB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3924" y="3073"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="10E-AM-c5h">
@@ -749,4 +945,10 @@
             <point key="canvasLocation" x="-489" y="-201"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="alianzas" width="800" height="533"/>
+        <image name="ic_email" width="96" height="96"/>
+        <image name="ic_maps" width="96" height="96"/>
+        <image name="ic_phone" width="96" height="96"/>
+    </resources>
 </document>

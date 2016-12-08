@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED1C4B6E1DF976390085C786 /* DetailNationalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C4B6D1DF976390085C786 /* DetailNationalViewController.swift */; };
+		ED1C4B701DF976820085C786 /* DetailBarranquillaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C4B6F1DF976820085C786 /* DetailBarranquillaViewController.swift */; };
+		ED1C4B721DF976D20085C786 /* DetailBogotaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C4B711DF976D20085C786 /* DetailBogotaViewController.swift */; };
+		ED1C4B741DF977360085C786 /* DetailBoyacaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C4B731DF977360085C786 /* DetailBoyacaViewController.swift */; };
+		ED1C4B761DF979790085C786 /* DetailCaliViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C4B751DF979790085C786 /* DetailCaliViewController.swift */; };
+		ED1C4B781DF97A950085C786 /* DetailCartagenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C4B771DF97A950085C786 /* DetailCartagenaViewController.swift */; };
+		ED1C4B7A1DF97AFC0085C786 /* DetailValleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C4B791DF97AFC0085C786 /* DetailValleViewController.swift */; };
+		ED1C4B7C1DF97B4F0085C786 /* DetailPastoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C4B7B1DF97B4F0085C786 /* DetailPastoViewController.swift */; };
 		ED37AE2C1DF6DFA40096E7F7 /* CartagenaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37AE2B1DF6DFA40096E7F7 /* CartagenaModel.swift */; };
 		ED37AE2F1DF6E4980096E7F7 /* CartagenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37AE2E1DF6E4980096E7F7 /* CartagenaViewController.swift */; };
 		ED37AE321DF6F39B0096E7F7 /* CartagenaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED37AE311DF6F39B0096E7F7 /* CartagenaCell.swift */; };
@@ -47,6 +55,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED1C4B6D1DF976390085C786 /* DetailNationalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailNationalViewController.swift; sourceTree = "<group>"; };
+		ED1C4B6F1DF976820085C786 /* DetailBarranquillaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailBarranquillaViewController.swift; sourceTree = "<group>"; };
+		ED1C4B711DF976D20085C786 /* DetailBogotaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailBogotaViewController.swift; sourceTree = "<group>"; };
+		ED1C4B731DF977360085C786 /* DetailBoyacaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailBoyacaViewController.swift; sourceTree = "<group>"; };
+		ED1C4B751DF979790085C786 /* DetailCaliViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCaliViewController.swift; sourceTree = "<group>"; };
+		ED1C4B771DF97A950085C786 /* DetailCartagenaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCartagenaViewController.swift; sourceTree = "<group>"; };
+		ED1C4B791DF97AFC0085C786 /* DetailValleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailValleViewController.swift; sourceTree = "<group>"; };
+		ED1C4B7B1DF97B4F0085C786 /* DetailPastoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPastoViewController.swift; sourceTree = "<group>"; };
 		ED37AE2B1DF6DFA40096E7F7 /* CartagenaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartagenaModel.swift; sourceTree = "<group>"; };
 		ED37AE2E1DF6E4980096E7F7 /* CartagenaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartagenaViewController.swift; sourceTree = "<group>"; };
 		ED37AE311DF6F39B0096E7F7 /* CartagenaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartagenaCell.swift; sourceTree = "<group>"; };
@@ -99,6 +115,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED1C4B6A1DF975640085C786 /* details */ = {
+			isa = PBXGroup;
+			children = (
+				ED1C4B6D1DF976390085C786 /* DetailNationalViewController.swift */,
+				ED1C4B6F1DF976820085C786 /* DetailBarranquillaViewController.swift */,
+				ED1C4B711DF976D20085C786 /* DetailBogotaViewController.swift */,
+				ED1C4B731DF977360085C786 /* DetailBoyacaViewController.swift */,
+				ED1C4B751DF979790085C786 /* DetailCaliViewController.swift */,
+				ED1C4B771DF97A950085C786 /* DetailCartagenaViewController.swift */,
+				ED1C4B791DF97AFC0085C786 /* DetailValleViewController.swift */,
+				ED1C4B7B1DF97B4F0085C786 /* DetailPastoViewController.swift */,
+			);
+			name = details;
+			sourceTree = "<group>";
+		};
 		ED37AE2A1DF6DF3F0096E7F7 /* cartagena */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,6 +366,7 @@
 		EDE961E21DEB106E00CB7758 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				ED1C4B6A1DF975640085C786 /* details */,
 				ED37AE411DF70A680096E7F7 /* pasto */,
 				ED37AE361DF700060096E7F7 /* valle */,
 				ED37AE2D1DF6E4100096E7F7 /* cartagena */,
@@ -471,6 +503,8 @@
 				EDE961E71DEB3E2200CB7758 /* MainModel.swift in Sources */,
 				EDB88A021DF1B20600D17FCF /* BoyacaViewController.swift in Sources */,
 				ED37AE3B1DF700990096E7F7 /* ValleCell.swift in Sources */,
+				ED1C4B6E1DF976390085C786 /* DetailNationalViewController.swift in Sources */,
+				ED1C4B7A1DF97AFC0085C786 /* DetailValleViewController.swift in Sources */,
 				EDB88A051DF1B23C00D17FCF /* BoyacaCell.swift in Sources */,
 				EDBDE65C1DECA327001A3F73 /* AllianceModel.swift in Sources */,
 				EDCAB8D41DE77BE60039260F /* ViewController.swift in Sources */,
@@ -479,14 +513,19 @@
 				ED447B711DEE27F400383EDA /* NationaModel.swift in Sources */,
 				EDE896931DEB697600DA7980 /* StoreViewController.swift in Sources */,
 				ED9903511DF6329200116258 /* CaliCell.swift in Sources */,
+				ED1C4B741DF977360085C786 /* DetailBoyacaViewController.swift in Sources */,
+				ED1C4B761DF979790085C786 /* DetailCaliViewController.swift in Sources */,
 				ED37AE2C1DF6DFA40096E7F7 /* CartagenaModel.swift in Sources */,
 				ED99034E1DF6326100116258 /* CaliViewController.swift in Sources */,
 				ED7358431DEF6954006160FB /* BarranquillaViewController.swift in Sources */,
 				ED7358481DEF6DAA006160FB /* BarranquillaModel.swift in Sources */,
+				ED1C4B781DF97A950085C786 /* DetailCartagenaViewController.swift in Sources */,
 				ED37AE321DF6F39B0096E7F7 /* CartagenaCell.swift in Sources */,
 				EDCAB8D21DE77BE60039260F /* AppDelegate.swift in Sources */,
 				EDE896951DEB6A1600DA7980 /* EventsViewController.swift in Sources */,
+				ED1C4B721DF976D20085C786 /* DetailBogotaViewController.swift in Sources */,
 				ED447B741DEE2B9B00383EDA /* NationalCell.swift in Sources */,
+				ED1C4B7C1DF97B4F0085C786 /* DetailPastoViewController.swift in Sources */,
 				ED37AE2F1DF6E4980096E7F7 /* CartagenaViewController.swift in Sources */,
 				EDBDE65F1DECA52F001A3F73 /* AllianceCell.swift in Sources */,
 				ED37AE461DF70B0A0096E7F7 /* PastoCell.swift in Sources */,
@@ -496,6 +535,7 @@
 				EDE961E51DEB3AA800CB7758 /* RecordarCell.swift in Sources */,
 				ED37AE381DF700730096E7F7 /* ValleViewController.swift in Sources */,
 				EDBDE6591DECA1A7001A3F73 /* AllianceViewController.swift in Sources */,
+				ED1C4B701DF976820085C786 /* DetailBarranquillaViewController.swift in Sources */,
 				ED73584B1DEF6E35006160FB /* BarranquillaCell.swift in Sources */,
 				ED37AE431DF70A800096E7F7 /* PastoViewController.swift in Sources */,
 			);
