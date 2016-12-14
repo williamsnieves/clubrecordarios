@@ -10,6 +10,7 @@ import UIKit
 
 class BogotaViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    
     @IBOutlet weak var tableBogotaMain: UITableView!
     
     
@@ -17,21 +18,21 @@ class BogotaViewController: UIViewController, UITableViewDelegate, UITableViewDa
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let itemBogota1 = BogotaModel(title: "bogota1")
-        let itemBogota2 = BogotaModel(title: "bogota2")
-        let itemBogota3 = BogotaModel(title: "bogota3")
-        let itemBogota4 = BogotaModel(title: "bogota4")
-        let itemBogota5 = BogotaModel(title: "bogota5")
-        let itemBogota6 = BogotaModel(title: "bogota6")
-        let itemBogota7 = BogotaModel(title: "bogota7")
-        let itemBogota8 = BogotaModel(title: "bogota8")
-        let itemBogota9 = BogotaModel(title: "bogota9")
-        let itemBogota10 = BogotaModel(title: "bogota10")
-        let itemBogota11 = BogotaModel(title: "bogota11")
-        let itemBogota12 = BogotaModel(title: "bogota12")
-        let itemBogota13 = BogotaModel(title: "bogota13")
-        let itemBogota14 = BogotaModel(title: "bogota14")
-        let itemBogota15 = BogotaModel(title: "bogota15")
+        let itemBogota1 = BogotaModel(title: "bogota1", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"bogota")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBogota2 = BogotaModel(title: "bogota2", description: "national", descriptionDetail: "largo national", image: UIImage(named:"bogota")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBogota3 = BogotaModel(title: "bogota3", description: "national", descriptionDetail: "largo national", image: UIImage(named:"bogota")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBogota4 = BogotaModel(title: "bogota4", description: "national", descriptionDetail: "largo national", image: UIImage(named:"bogota")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBogota5 = BogotaModel(title: "bogota5", description: "national", descriptionDetail: "largo national", image: UIImage(named:"bogota")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBogota6 = BogotaModel(title: "bogota6", description: "national", descriptionDetail: "largo national", image: UIImage(named:"bogota")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBogota7 = BogotaModel(title: "bogota7", description: "national", descriptionDetail: "largo national", image: UIImage(named:"bogota")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBogota8 = BogotaModel(title: "bogota8", description: "national", descriptionDetail: "largo national", image: UIImage(named:"bogota")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBogota9 = BogotaModel(title: "bogota9", description: "national", descriptionDetail: "largo national", image: UIImage(named:"bogota")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBogota10 = BogotaModel(title: "bogota10", description: "national", descriptionDetail: "largo national", image: UIImage(named:"bogota")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBogota11 = BogotaModel(title: "bogota11", description: "national", descriptionDetail: "largo national", image: UIImage(named:"bogota")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBogota12 = BogotaModel(title: "bogota12", description: "national", descriptionDetail: "largo national", image: UIImage(named:"bogota")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBogota13 = BogotaModel(title: "bogota13", description: "national", descriptionDetail: "largo national", image: UIImage(named:"bogota")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBogota14 = BogotaModel(title: "bogota14", description: "national", descriptionDetail: "largo national", image: UIImage(named:"bogota")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBogota15 = BogotaModel(title: "bogota15", description: "national", descriptionDetail: "largo national", image: UIImage(named:"bogota")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
         
         bogotaLists.append(itemBogota1)
         bogotaLists.append(itemBogota2)
@@ -75,5 +76,50 @@ class BogotaViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        let bogotaModel = bogotaLists[indexPath.row]
+        switch(indexPath.row){
+        case 0:
+            self.performSegue(withIdentifier: "detailBogota", sender: bogotaModel)
+        case 1:
+            self.performSegue(withIdentifier: "detailBogota", sender: bogotaModel)
+        case 2:
+            self.performSegue(withIdentifier: "detailBogota", sender: bogotaModel)
+        case 3:
+            self.performSegue(withIdentifier: "detailBogota", sender: bogotaModel)
+        case 4:
+            self.performSegue(withIdentifier: "detailBogota", sender: bogotaModel)
+        case 5:
+            self.performSegue(withIdentifier: "detailBogota", sender: bogotaModel)
+        case 6:
+            self.performSegue(withIdentifier: "detailBogota", sender: bogotaModel)
+        case 7:
+            self.performSegue(withIdentifier: "detailBogota", sender: bogotaModel)
+        case 8:
+            self.performSegue(withIdentifier: "detailBogota", sender: bogotaModel)
+        case 9:
+            self.performSegue(withIdentifier: "detailBogota", sender: bogotaModel)
+        case 10:
+            self.performSegue(withIdentifier: "detailBogota", sender: bogotaModel)
+        case 11:
+            self.performSegue(withIdentifier: "detailBogota", sender: bogotaModel)
+        case 12:
+            self.performSegue(withIdentifier: "detailBogota", sender: bogotaModel)
+        case 13:
+            self.performSegue(withIdentifier: "detailBogota", sender: bogotaModel)
+        case 14:
+            self.performSegue(withIdentifier: "detailBogota", sender: bogotaModel)
+        default:
+            print("nada")
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let destination = segue.destination as? DetailBogotaViewController{
+            
+            if let bogota = sender as? BogotaModel{
+                destination.bogotaData = bogota
+            }
+        }
     }
 }
