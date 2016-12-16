@@ -18,21 +18,21 @@ class PastoViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let itemPasto1 = PastoModel(title: "pasto1")
-        let itemPasto2 = PastoModel(title: "pasto2")
-        let itemPasto3 = PastoModel(title: "pasto3")
-        let itemPasto4 = PastoModel(title: "pasto4")
-        let itemPasto5 = PastoModel(title: "pasto5")
-        let itemPasto6 = PastoModel(title: "pasto6")
-        let itemPasto7 = PastoModel(title: "pasto7")
-        let itemPasto8 = PastoModel(title: "pasto8")
-        let itemPasto9 = PastoModel(title: "pasto9")
-        let itemPasto10 = PastoModel(title: "pasto10")
-        let itemPasto11 = PastoModel(title: "pasto11")
-        let itemPasto12 = PastoModel(title: "pasto12")
-        let itemPasto13 = PastoModel(title: "pasto13")
-        let itemPasto14 = PastoModel(title: "pasto14")
-        let itemPasto15 = PastoModel(title: "pasto15")
+        let itemPasto1 = PastoModel(title: "pasto1", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemPasto2 = PastoModel(title: "pasto2", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemPasto3 = PastoModel(title: "pasto3", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemPasto4 = PastoModel(title: "pasto4", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemPasto5 = PastoModel(title: "pasto5", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemPasto6 = PastoModel(title: "pasto6", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemPasto7 = PastoModel(title: "pasto7", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemPasto8 = PastoModel(title: "pasto8", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemPasto9 = PastoModel(title: "pasto9", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemPasto10 = PastoModel(title: "pasto10", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemPasto11 = PastoModel(title: "pasto11", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemPasto12 = PastoModel(title: "pasto12", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemPasto13 = PastoModel(title: "pasto13", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemPasto14 = PastoModel(title: "pasto14", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemPasto15 = PastoModel(title: "pasto15", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
         
         pastoLists.append(itemPasto1)
         pastoLists.append(itemPasto2)
@@ -77,7 +77,51 @@ class PastoViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let pastoModel = pastoLists[indexPath.row]
+        switch(indexPath.row){
+        case 0:
+            self.performSegue(withIdentifier: "detailPasto", sender: pastoModel)
+        case 1:
+            self.performSegue(withIdentifier: "detailPasto", sender: pastoModel)
+        case 2:
+            self.performSegue(withIdentifier: "detailPasto", sender: pastoModel)
+        case 3:
+            self.performSegue(withIdentifier: "detailPasto", sender: pastoModel)
+        case 4:
+            self.performSegue(withIdentifier: "detailPasto", sender: pastoModel)
+        case 5:
+            self.performSegue(withIdentifier: "detailPasto", sender: pastoModel)
+        case 6:
+            self.performSegue(withIdentifier: "detailPasto", sender: pastoModel)
+        case 7:
+            self.performSegue(withIdentifier: "detailPasto", sender: pastoModel)
+        case 8:
+            self.performSegue(withIdentifier: "detailPasto", sender: pastoModel)
+        case 9:
+            self.performSegue(withIdentifier: "detailPasto", sender: pastoModel)
+        case 10:
+            self.performSegue(withIdentifier: "detailPasto", sender: pastoModel)
+        case 11:
+            self.performSegue(withIdentifier: "detailPasto", sender: pastoModel)
+        case 12:
+            self.performSegue(withIdentifier: "detailPasto", sender: pastoModel)
+        case 13:
+            self.performSegue(withIdentifier: "detailPasto", sender: pastoModel)
+        case 14:
+            self.performSegue(withIdentifier: "detailPasto", sender: pastoModel)
+        default:
+            print("nada")
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
+        if let destination = segue.destination as? DetailPastoViewController{
+            
+            if let pasto = sender as? PastoModel{
+                destination.pastoData = pasto
+            }
+        }
     }
     
     

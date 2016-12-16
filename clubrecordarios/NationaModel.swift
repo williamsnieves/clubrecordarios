@@ -35,7 +35,7 @@ class NationalModel{
     }
     
     var title:String {
-        return _description
+        return _title
     }
     
     init(description:String) {

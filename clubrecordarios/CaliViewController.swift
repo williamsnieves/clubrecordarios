@@ -18,21 +18,21 @@ class CaliViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let itemCali1 = CaliModel(title: "cali1")
-        let itemCali2 = CaliModel(title: "cali2")
-        let itemCali3 = CaliModel(title: "cali3")
-        let itemCali4 = CaliModel(title: "cali4")
-        let itemCali5 = CaliModel(title: "cali5")
-        let itemCali6 = CaliModel(title: "cali6")
-        let itemCali7 = CaliModel(title: "cali7")
-        let itemCali8 = CaliModel(title: "cali8")
-        let itemCali9 = CaliModel(title: "cali9")
-        let itemCali10 = CaliModel(title: "cali10")
-        let itemCali11 = CaliModel(title: "cali11")
-        let itemCali12 = CaliModel(title: "cali12")
-        let itemCali13 = CaliModel(title: "cali13")
-        let itemCali14 = CaliModel(title: "cali14")
-        let itemCali15 = CaliModel(title: "cali15")
+        let itemCali1 = CaliModel(title: "cali1", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemCali2 = CaliModel(title: "cali2", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemCali3 = CaliModel(title: "cali3", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemCali4 = CaliModel(title: "cali4", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemCali5 = CaliModel(title: "cali5", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemCali6 = CaliModel(title: "cali6", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemCali7 = CaliModel(title: "cali7", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemCali8 = CaliModel(title: "cali8", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemCali9 = CaliModel(title: "cali9", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemCali10 = CaliModel(title: "cali10", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemCali11 = CaliModel(title: "cali11", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemCali12 = CaliModel(title: "cali12", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemCali13 = CaliModel(title: "cali13", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemCali14 = CaliModel(title: "cali14", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemCali15 = CaliModel(title: "cali15", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
         
         caliLists.append(itemCali1)
         caliLists.append(itemCali2)
@@ -76,7 +76,51 @@ class CaliViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let caliModel = caliLists[indexPath.row]
+        switch(indexPath.row){
+        case 0:
+            self.performSegue(withIdentifier: "detailCali", sender: caliModel)
+        case 1:
+            self.performSegue(withIdentifier: "detailCali", sender: caliModel)
+        case 2:
+            self.performSegue(withIdentifier: "detailCali", sender: caliModel)
+        case 3:
+            self.performSegue(withIdentifier: "detailCali", sender: caliModel)
+        case 4:
+            self.performSegue(withIdentifier: "detailCali", sender: caliModel)
+        case 5:
+            self.performSegue(withIdentifier: "detailCali", sender: caliModel)
+        case 6:
+            self.performSegue(withIdentifier: "detailCali", sender: caliModel)
+        case 7:
+            self.performSegue(withIdentifier: "detailCali", sender: caliModel)
+        case 8:
+            self.performSegue(withIdentifier: "detailCali", sender: caliModel)
+        case 9:
+            self.performSegue(withIdentifier: "detailCali", sender: caliModel)
+        case 10:
+            self.performSegue(withIdentifier: "detailCali", sender: caliModel)
+        case 11:
+            self.performSegue(withIdentifier: "detailCali", sender: caliModel)
+        case 12:
+            self.performSegue(withIdentifier: "detailCali", sender: caliModel)
+        case 13:
+            self.performSegue(withIdentifier: "detailCali", sender: caliModel)
+        case 14:
+            self.performSegue(withIdentifier: "detailCali", sender: caliModel)
+        default:
+            print("nada")
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
+        if let destination = segue.destination as? DetailCaliViewController{
+            
+            if let cali = sender as? CaliModel{
+                destination.caliData = cali
+            }
+        }
     }
 
 }

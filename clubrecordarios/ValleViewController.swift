@@ -18,21 +18,21 @@ class ValleViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let itemValle1 = ValleModel(title: "valle1")
-        let itemValle2 = ValleModel(title: "valle2")
-        let itemValle3 = ValleModel(title: "valle3")
-        let itemValle4 = ValleModel(title: "valle4")
-        let itemValle5 = ValleModel(title: "valle5")
-        let itemValle6 = ValleModel(title: "valle6")
-        let itemValle7 = ValleModel(title: "valle7")
-        let itemValle8 = ValleModel(title: "valle8")
-        let itemValle9 = ValleModel(title: "valle9")
-        let itemValle10 = ValleModel(title: "valle10")
-        let itemValle11 = ValleModel(title: "valle11")
-        let itemValle12 = ValleModel(title: "valle12")
-        let itemValle13 = ValleModel(title: "valle13")
-        let itemValle14 = ValleModel(title: "valle14")
-        let itemValle15 = ValleModel(title: "valle15")
+        let itemValle1 = ValleModel(title: "valle1", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"valledupar")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemValle2 = ValleModel(title: "valle2", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"valledupar")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemValle3 = ValleModel(title: "valle3", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"valledupar")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemValle4 = ValleModel(title: "valle4", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"valledupar")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemValle5 = ValleModel(title: "valle5", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"valledupar")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemValle6 = ValleModel(title: "valle6", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"valledupar")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemValle7 = ValleModel(title: "valle7", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemValle8 = ValleModel(title: "valle8", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemValle9 = ValleModel(title: "valle9", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemValle10 = ValleModel(title: "valle10", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemValle11 = ValleModel(title: "valle11", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemValle12 = ValleModel(title: "valle12", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemValle13 = ValleModel(title: "valle13", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemValle14 = ValleModel(title: "valle14", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemValle15 = ValleModel(title: "valle15", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
         
         valleLists.append(itemValle1)
         valleLists.append(itemValle2)
@@ -74,7 +74,52 @@ class ValleViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let valleModel = valleLists[indexPath.row]
+        switch(indexPath.row){
+        case 0:
+            self.performSegue(withIdentifier: "detailValle", sender: valleModel)
+        case 1:
+            self.performSegue(withIdentifier: "detailValle", sender: valleModel)
+        case 2:
+            self.performSegue(withIdentifier: "detailValle", sender: valleModel)
+        case 3:
+            self.performSegue(withIdentifier: "detailValle", sender: valleModel)
+        case 4:
+            self.performSegue(withIdentifier: "detailValle", sender: valleModel)
+        case 5:
+            self.performSegue(withIdentifier: "detailValle", sender: valleModel)
+        case 6:
+            self.performSegue(withIdentifier: "detailValle", sender: valleModel)
+        case 7:
+            self.performSegue(withIdentifier: "detailValle", sender: valleModel)
+        case 8:
+            self.performSegue(withIdentifier: "detailValle", sender: valleModel)
+        case 9:
+            self.performSegue(withIdentifier: "detailValle", sender: valleModel)
+        case 10:
+            self.performSegue(withIdentifier: "detailValle", sender: valleModel)
+        case 11:
+            self.performSegue(withIdentifier: "detailValle", sender: valleModel)
+        case 12:
+            self.performSegue(withIdentifier: "detailValle", sender: valleModel)
+        case 13:
+            self.performSegue(withIdentifier: "detailValle", sender: valleModel)
+        case 14:
+            self.performSegue(withIdentifier: "detailValle", sender: valleModel)
+        default:
+            print("nada")
+        }
+
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
+        if let destination = segue.destination as? DetailValleViewController{
+            
+            if let valle = sender as? ValleModel{
+                destination.valleData = valle
+            }
+        }
     }
     
     

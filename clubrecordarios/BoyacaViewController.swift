@@ -18,21 +18,21 @@ class BoyacaViewController: UIViewController, UITableViewDelegate, UITableViewDa
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let itemBoyaca1 = BoyacaModel(title: "boyaca1")
-        let itemBoyaca2 = BoyacaModel(title: "boyaca2")
-        let itemBoyaca3 = BoyacaModel(title: "boyaca3")
-        let itemBoyaca4 = BoyacaModel(title: "boyaca4")
-        let itemBoyaca5 = BoyacaModel(title: "boyaca5")
-        let itemBoyaca6 = BoyacaModel(title: "boyaca6")
-        let itemBoyaca7 = BoyacaModel(title: "boyaca7")
-        let itemBoyaca8 = BoyacaModel(title: "boyaca8")
-        let itemBoyaca9 = BoyacaModel(title: "boyaca9")
-        let itemBoyaca10 = BoyacaModel(title: "boyaca10")
-        let itemBoyaca11 = BoyacaModel(title: "boyaca11")
-        let itemBoyaca12 = BoyacaModel(title: "boyaca12")
-        let itemBoyaca13 = BoyacaModel(title: "boyaca13")
-        let itemBoyaca14 = BoyacaModel(title: "boyaca14")
-        let itemBoyaca15 = BoyacaModel(title: "boyaca15")
+        let itemBoyaca1 = BoyacaModel(title: "boyaca1", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"boyaca")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBoyaca2 = BoyacaModel(title: "boyaca2", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"boyaca")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBoyaca3 = BoyacaModel(title: "boyaca3", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"boyaca")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBoyaca4 = BoyacaModel(title: "boyaca4", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"boyaca")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBoyaca5 = BoyacaModel(title: "boyaca5", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"boyaca")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBoyaca6 = BoyacaModel(title: "boyaca6", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"boyaca")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBoyaca7 = BoyacaModel(title: "boyaca7", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"boyaca")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBoyaca8 = BoyacaModel(title: "boyaca8", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"boyaca")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBoyaca9 = BoyacaModel(title: "boyaca9", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"boyaca")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBoyaca10 = BoyacaModel(title: "boyaca10", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"boyaca")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBoyaca11 = BoyacaModel(title: "boyaca11", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"boyaca")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBoyaca12 = BoyacaModel(title: "boyaca12", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"boyaca")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBoyaca13 = BoyacaModel(title: "boyaca13", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"boyaca")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBoyaca14 = BoyacaModel(title: "boyaca14", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"boyaca")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        let itemBoyaca15 = BoyacaModel(title: "boyaca15", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"boyaca")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
         
         boyacaLists.append(itemBoyaca1)
         boyacaLists.append(itemBoyaca2)
@@ -77,7 +77,51 @@ class BoyacaViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let boyacaModel = boyacaLists[indexPath.row]
+        switch(indexPath.row){
+        case 0:
+            self.performSegue(withIdentifier: "detailBoyaca", sender: boyacaModel)
+        case 1:
+            self.performSegue(withIdentifier: "detailBoyaca", sender: boyacaModel)
+        case 2:
+            self.performSegue(withIdentifier: "detailBoyaca", sender: boyacaModel)
+        case 3:
+            self.performSegue(withIdentifier: "detailBoyaca", sender: boyacaModel)
+        case 4:
+            self.performSegue(withIdentifier: "detailBoyaca", sender: boyacaModel)
+        case 5:
+            self.performSegue(withIdentifier: "detailBoyaca", sender: boyacaModel)
+        case 6:
+            self.performSegue(withIdentifier: "detailBoyaca", sender: boyacaModel)
+        case 7:
+            self.performSegue(withIdentifier: "detailBoyaca", sender: boyacaModel)
+        case 8:
+            self.performSegue(withIdentifier: "detailBoyaca", sender: boyacaModel)
+        case 9:
+            self.performSegue(withIdentifier: "detailBoyaca", sender: boyacaModel)
+        case 10:
+            self.performSegue(withIdentifier: "detailBoyaca", sender: boyacaModel)
+        case 11:
+            self.performSegue(withIdentifier: "detailBoyaca", sender: boyacaModel)
+        case 12:
+            self.performSegue(withIdentifier: "detailBoyaca", sender: boyacaModel)
+        case 13:
+            self.performSegue(withIdentifier: "detailBoyaca", sender: boyacaModel)
+        case 14:
+            self.performSegue(withIdentifier: "detailBoyaca", sender: boyacaModel)
+        default:
+            print("nada")
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
+        if let destination = segue.destination as? DetailBoyacaViewController{
+            
+            if let boyaca = sender as? BoyacaModel{
+                destination.boyacaData = boyaca
+            }
+        }
     }
 
 }

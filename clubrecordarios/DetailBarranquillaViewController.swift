@@ -47,7 +47,7 @@ class DetailBarranquillaViewController: UIViewController {
     }
     
     func initPhoneGesture(){
-        let singleTap = UITapGestureRecognizer(target: self, action: #selector(DetailNationalViewController.tapPhoneDetected))
+        let singleTap = UITapGestureRecognizer(target: self, action: #selector(DetailBarranquillaViewController.tapPhoneDetected))
         
         singleTap.numberOfTapsRequired = 1 // you can change this value
         phoneBtn.isUserInteractionEnabled = true
@@ -55,7 +55,7 @@ class DetailBarranquillaViewController: UIViewController {
     }
     
     func initMailGestures(){
-        let singleTap = UITapGestureRecognizer(target: self, action: #selector(DetailNationalViewController.tapMailDetected))
+        let singleTap = UITapGestureRecognizer(target: self, action: #selector(DetailBarranquillaViewController.tapMailDetected))
         
         singleTap.numberOfTapsRequired = 1 // you can change this value
         mailBtn.isUserInteractionEnabled = true
@@ -63,7 +63,7 @@ class DetailBarranquillaViewController: UIViewController {
     }
     
     func initLocationGestures(){
-        let singleTap = UITapGestureRecognizer(target: self, action: #selector(DetailNationalViewController.tapLocationDetected))
+        let singleTap = UITapGestureRecognizer(target: self, action: #selector(DetailBarranquillaViewController.tapLocationDetected))
         
         singleTap.numberOfTapsRequired = 1 // you can change this value
         locationBtn.isUserInteractionEnabled = true
