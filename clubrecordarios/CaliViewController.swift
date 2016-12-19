@@ -18,21 +18,218 @@ class CaliViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let itemCali1 = CaliModel(title: "cali1", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemCali2 = CaliModel(title: "cali2", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemCali3 = CaliModel(title: "cali3", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemCali4 = CaliModel(title: "cali4", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemCali5 = CaliModel(title: "cali5", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemCali6 = CaliModel(title: "cali6", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemCali7 = CaliModel(title: "cali7", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemCali8 = CaliModel(title: "cali8", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemCali9 = CaliModel(title: "cali9", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemCali10 = CaliModel(title: "cali10", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemCali11 = CaliModel(title: "cali11", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemCali12 = CaliModel(title: "cali12", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemCali13 = CaliModel(title: "cali13", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemCali14 = CaliModel(title: "cali14", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemCali15 = CaliModel(title: "cali15", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"cali")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        struct GroupCali1 {
+            var title = "national1"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupCali1 = GroupCali1()
+        
+        struct GroupCali2 {
+            var title = "national2"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupCali2 = GroupCali2()
+        
+        struct GroupCali3 {
+            var title = "national3"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupCali3 = GroupCali3()
+        
+        struct GroupCali4 {
+            var title = "national4"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupCali4 = GroupCali4()
+        
+        struct GroupCali5 {
+            var title = "national5"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupCali5 = GroupCali5()
+        
+        struct GroupCali6 {
+            var title = "national6"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupCali6 = GroupCali6()
+        
+        struct GroupCali7 {
+            var title = "national7"
+            var description = "national"
+            var descriptionDetail = "largo national 7"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupCali7 = GroupCali7()
+        
+        struct GroupCali8 {
+            var title = "national8"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupCali8 = GroupCali8()
+        
+        struct GroupCali9 {
+            var title = "national9"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupCali9 = GroupCali9()
+        
+        struct GroupCali10 {
+            var title = "national10"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupCali10 = GroupCali10()
+        
+        struct GroupCali11 {
+            var title = "national11"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupCali11 = GroupCali11()
+        
+        struct GroupCali12 {
+            var title = "national12"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupCali12 = GroupCali12()
+        
+        
+        struct GroupCali13 {
+            var title = "national13"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupCali13 = GroupCali13()
+        
+        struct GroupCali14 {
+            var title = "national14"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupCali14 = GroupCali14()
+        
+        struct GroupCali15 {
+            var title = "national15"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupCali15 = GroupCali15()
+        
+        let itemCali1 = CaliModel(title: groupCali1.title, description: groupCali1.description, descriptionDetail: groupCali1.descriptionDetail, image: groupCali1.image , phone: groupCali1.phone, mail: groupCali1.mail, latitude: groupCali1.latitude as NSString, longitude: groupCali1.longitude as NSString)
+        let itemCali2 = CaliModel(title: groupCali2.title, description: groupCali2.description, descriptionDetail: groupCali2.descriptionDetail, image: groupCali2.image , phone: groupCali2.phone, mail: groupCali2.mail, latitude: groupCali2.latitude as NSString, longitude: groupCali2.longitude as NSString)
+        let itemCali3 = CaliModel(title: groupCali3.title, description: groupCali3.description, descriptionDetail: groupCali3.descriptionDetail, image: groupCali3.image , phone: groupCali3.phone, mail: groupCali3.mail, latitude: groupCali3.latitude as NSString, longitude: groupCali3.longitude as NSString)
+        let itemCali4 = CaliModel(title: groupCali4.title, description: groupCali4.description, descriptionDetail: groupCali4.descriptionDetail, image: groupCali4.image , phone: groupCali4.phone, mail: groupCali4.mail, latitude: groupCali4.latitude as NSString, longitude: groupCali4.longitude as NSString)
+        let itemCali5 = CaliModel(title: groupCali5.title, description: groupCali5.description, descriptionDetail: groupCali5.descriptionDetail, image: groupCali5.image , phone: groupCali5.phone, mail: groupCali5.mail, latitude: groupCali5.latitude as NSString, longitude: groupCali5.longitude as NSString)
+        let itemCali6 = CaliModel(title: groupCali6.title, description: groupCali6.description, descriptionDetail: groupCali6.descriptionDetail, image: groupCali6.image , phone: groupCali6.phone, mail: groupCali6.mail, latitude: groupCali6.latitude as NSString, longitude: groupCali6.longitude as NSString)
+        let itemCali7 = CaliModel(title: groupCali7.title, description: groupCali7.description, descriptionDetail: groupCali7.descriptionDetail, image: groupCali7.image , phone: groupCali7.phone, mail: groupCali7.mail, latitude: groupCali7.latitude as NSString, longitude: groupCali7.longitude as NSString)
+        let itemCali8 = CaliModel(title: groupCali8.title, description: groupCali8.description, descriptionDetail: groupCali8.descriptionDetail, image: groupCali8.image , phone: groupCali8.phone, mail: groupCali8.mail, latitude: groupCali8.latitude as NSString, longitude: groupCali8.longitude as NSString)
+        let itemCali9 = CaliModel(title: groupCali9.title, description: groupCali9.description, descriptionDetail: groupCali9.descriptionDetail, image: groupCali9.image , phone: groupCali9.phone, mail: groupCali9.mail, latitude: groupCali9.latitude as NSString, longitude: groupCali9.longitude as NSString)
+        let itemCali10 = CaliModel(title: groupCali10.title, description: groupCali10.description, descriptionDetail: groupCali10.descriptionDetail, image: groupCali10.image , phone: groupCali10.phone, mail: groupCali10.mail, latitude: groupCali10.latitude as NSString, longitude: groupCali10.longitude as NSString)
+        let itemCali11 = CaliModel(title: groupCali11.title, description: groupCali11.description, descriptionDetail: groupCali11.descriptionDetail, image: groupCali11.image , phone: groupCali11.phone, mail: groupCali11.mail, latitude: groupCali11.latitude as NSString, longitude: groupCali11.longitude as NSString)
+        let itemCali12 = CaliModel(title: groupCali12.title, description: groupCali12.description, descriptionDetail: groupCali12.descriptionDetail, image: groupCali12.image , phone: groupCali12.phone, mail: groupCali12.mail, latitude: groupCali12.latitude as NSString, longitude: groupCali12.longitude as NSString)
+        let itemCali13 = CaliModel(title: groupCali13.title, description: groupCali13.description, descriptionDetail: groupCali13.descriptionDetail, image: groupCali13.image , phone: groupCali13.phone, mail: groupCali13.mail, latitude: groupCali13.latitude as NSString, longitude: groupCali13.longitude as NSString)
+        
+        let itemCali14 = CaliModel(title: groupCali14.title, description: groupCali14.description, descriptionDetail: groupCali14.descriptionDetail, image: groupCali14.image , phone: groupCali14.phone, mail: groupCali14.mail, latitude: groupCali14.latitude as NSString, longitude: groupCali14.longitude as NSString)
+        let itemCali15 = CaliModel(title: groupCali15.title, description: groupCali15.description, descriptionDetail: groupCali15.descriptionDetail, image: groupCali15.image , phone: groupCali15.phone, mail: groupCali15.mail, latitude: groupCali15.latitude as NSString, longitude: groupCali15.longitude as NSString)
         
         caliLists.append(itemCali1)
         caliLists.append(itemCali2)

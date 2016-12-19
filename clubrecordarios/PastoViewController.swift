@@ -18,21 +18,218 @@ class PastoViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let itemPasto1 = PastoModel(title: "pasto1", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemPasto2 = PastoModel(title: "pasto2", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemPasto3 = PastoModel(title: "pasto3", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemPasto4 = PastoModel(title: "pasto4", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemPasto5 = PastoModel(title: "pasto5", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemPasto6 = PastoModel(title: "pasto6", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemPasto7 = PastoModel(title: "pasto7", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemPasto8 = PastoModel(title: "pasto8", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemPasto9 = PastoModel(title: "pasto9", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemPasto10 = PastoModel(title: "pasto10", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemPasto11 = PastoModel(title: "pasto11", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemPasto12 = PastoModel(title: "pasto12", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemPasto13 = PastoModel(title: "pasto13", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemPasto14 = PastoModel(title: "pasto14", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
-        let itemPasto15 = PastoModel(title: "pasto15", description: "national", descriptionDetail: "largo bogota1", image: UIImage(named:"pasto")!, phone: "697391110", mail: "willi@gmail.com", latitude: "40.6866734", longitude: "-74.0848561")
+        struct GroupPasto1 {
+            var title = "national1"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupPasto1 = GroupPasto1()
+        
+        struct GroupPasto2 {
+            var title = "national2"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupPasto2 = GroupPasto2()
+        
+        struct GroupPasto3 {
+            var title = "national3"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupPasto3 = GroupPasto3()
+        
+        struct GroupPasto4 {
+            var title = "national4"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupPasto4 = GroupPasto4()
+        
+        struct GroupPasto5 {
+            var title = "national5"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupPasto5 = GroupPasto5()
+        
+        struct GroupPasto6 {
+            var title = "national6"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupPasto6 = GroupPasto6()
+        
+        struct GroupPasto7 {
+            var title = "national7"
+            var description = "national"
+            var descriptionDetail = "largo national 7"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupPasto7 = GroupPasto7()
+        
+        struct GroupPasto8 {
+            var title = "national8"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupPasto8 = GroupPasto8()
+        
+        struct GroupPasto9 {
+            var title = "national9"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupPasto9 = GroupPasto9()
+        
+        struct GroupPasto10 {
+            var title = "national10"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupPasto10 = GroupPasto10()
+        
+        struct GroupPasto11 {
+            var title = "national11"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupPasto11 = GroupPasto11()
+        
+        struct GroupPasto12 {
+            var title = "national12"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupPasto12 = GroupPasto12()
+        
+        
+        struct GroupPasto13 {
+            var title = "national13"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupPasto13 = GroupPasto13()
+        
+        struct GroupPasto14 {
+            var title = "national14"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupPasto14 = GroupPasto14()
+        
+        struct GroupPasto15 {
+            var title = "national15"
+            var description = "national"
+            var descriptionDetail = "largo national"
+            var image = UIImage(named:"alianzas")!
+            var phone = "697391110"
+            var mail = "willi@gmail.com"
+            var latitude = "41.5922089"
+            var longitude = "-0.9315483"
+        }
+        
+        let groupPasto15 = GroupPasto15()
+        
+        let itemPasto1 = PastoModel(title: groupPasto1.title, description: groupPasto1.description, descriptionDetail: groupPasto1.descriptionDetail, image: groupPasto1.image , phone: groupPasto1.phone, mail: groupPasto1.mail, latitude: groupPasto1.latitude as NSString, longitude: groupPasto1.longitude as NSString)
+        let itemPasto2 = PastoModel(title: groupPasto2.title, description: groupPasto2.description, descriptionDetail: groupPasto2.descriptionDetail, image: groupPasto2.image , phone: groupPasto2.phone, mail: groupPasto2.mail, latitude: groupPasto2.latitude as NSString, longitude: groupPasto2.longitude as NSString)
+        let itemPasto3 = PastoModel(title: groupPasto3.title, description: groupPasto3.description, descriptionDetail: groupPasto3.descriptionDetail, image: groupPasto3.image , phone: groupPasto3.phone, mail: groupPasto3.mail, latitude: groupPasto3.latitude as NSString, longitude: groupPasto3.longitude as NSString)
+        let itemPasto4 = PastoModel(title: groupPasto4.title, description: groupPasto4.description, descriptionDetail: groupPasto4.descriptionDetail, image: groupPasto4.image , phone: groupPasto4.phone, mail: groupPasto4.mail, latitude: groupPasto4.latitude as NSString, longitude: groupPasto4.longitude as NSString)
+        let itemPasto5 = PastoModel(title: groupPasto5.title, description: groupPasto5.description, descriptionDetail: groupPasto5.descriptionDetail, image: groupPasto5.image , phone: groupPasto5.phone, mail: groupPasto5.mail, latitude: groupPasto5.latitude as NSString, longitude: groupPasto5.longitude as NSString)
+        let itemPasto6 = PastoModel(title: groupPasto6.title, description: groupPasto6.description, descriptionDetail: groupPasto6.descriptionDetail, image: groupPasto6.image , phone: groupPasto6.phone, mail: groupPasto6.mail, latitude: groupPasto6.latitude as NSString, longitude: groupPasto6.longitude as NSString)
+        let itemPasto7 = PastoModel(title: groupPasto7.title, description: groupPasto7.description, descriptionDetail: groupPasto7.descriptionDetail, image: groupPasto7.image , phone: groupPasto7.phone, mail: groupPasto7.mail, latitude: groupPasto7.latitude as NSString, longitude: groupPasto7.longitude as NSString)
+        let itemPasto8 = PastoModel(title: groupPasto8.title, description: groupPasto8.description, descriptionDetail: groupPasto8.descriptionDetail, image: groupPasto8.image , phone: groupPasto8.phone, mail: groupPasto8.mail, latitude: groupPasto8.latitude as NSString, longitude: groupPasto8.longitude as NSString)
+        let itemPasto9 = PastoModel(title: groupPasto9.title, description: groupPasto9.description, descriptionDetail: groupPasto9.descriptionDetail, image: groupPasto9.image , phone: groupPasto9.phone, mail: groupPasto9.mail, latitude: groupPasto9.latitude as NSString, longitude: groupPasto9.longitude as NSString)
+        let itemPasto10 = PastoModel(title: groupPasto10.title, description: groupPasto10.description, descriptionDetail: groupPasto10.descriptionDetail, image: groupPasto10.image , phone: groupPasto10.phone, mail: groupPasto10.mail, latitude: groupPasto10.latitude as NSString, longitude: groupPasto10.longitude as NSString)
+        let itemPasto11 = PastoModel(title: groupPasto11.title, description: groupPasto11.description, descriptionDetail: groupPasto11.descriptionDetail, image: groupPasto11.image , phone: groupPasto11.phone, mail: groupPasto11.mail, latitude: groupPasto11.latitude as NSString, longitude: groupPasto11.longitude as NSString)
+        let itemPasto12 = PastoModel(title: groupPasto12.title, description: groupPasto12.description, descriptionDetail: groupPasto12.descriptionDetail, image: groupPasto12.image , phone: groupPasto12.phone, mail: groupPasto12.mail, latitude: groupPasto12.latitude as NSString, longitude: groupPasto12.longitude as NSString)
+        let itemPasto13 = PastoModel(title: groupPasto13.title, description: groupPasto13.description, descriptionDetail: groupPasto13.descriptionDetail, image: groupPasto13.image , phone: groupPasto13.phone, mail: groupPasto13.mail, latitude: groupPasto13.latitude as NSString, longitude: groupPasto13.longitude as NSString)
+        
+        let itemPasto14 = PastoModel(title: groupPasto14.title, description: groupPasto14.description, descriptionDetail: groupPasto14.descriptionDetail, image: groupPasto14.image , phone: groupPasto14.phone, mail: groupPasto14.mail, latitude: groupPasto14.latitude as NSString, longitude: groupPasto14.longitude as NSString)
+        let itemPasto15 = PastoModel(title: groupPasto15.title, description: groupPasto15.description, descriptionDetail: groupPasto15.descriptionDetail, image: groupPasto15.image , phone: groupPasto15.phone, mail: groupPasto15.mail, latitude: groupPasto15.latitude as NSString, longitude: groupPasto15.longitude as NSString)
         
         pastoLists.append(itemPasto1)
         pastoLists.append(itemPasto2)
