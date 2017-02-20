@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B569BBDE9E07A85C4BAC257 /* Pods_clubrecordarios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAC78207D666724AC8CECEE /* Pods_clubrecordarios.framework */; };
 		ED1C4B6E1DF976390085C786 /* DetailNationalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C4B6D1DF976390085C786 /* DetailNationalViewController.swift */; };
 		ED1C4B701DF976820085C786 /* DetailBarranquillaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C4B6F1DF976820085C786 /* DetailBarranquillaViewController.swift */; };
 		ED1C4B721DF976D20085C786 /* DetailBogotaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C4B711DF976D20085C786 /* DetailBogotaViewController.swift */; };
@@ -33,6 +34,7 @@
 		ED99034B1DF6321400116258 /* CaliModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99034A1DF6321400116258 /* CaliModel.swift */; };
 		ED99034E1DF6326100116258 /* CaliViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99034D1DF6326100116258 /* CaliViewController.swift */; };
 		ED9903511DF6329200116258 /* CaliCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9903501DF6329200116258 /* CaliCell.swift */; };
+		EDAC25171E5B9B3500AD03F5 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = EDAC25161E5B9B3300AD03F5 /* GoogleService-Info (1).plist */; };
 		EDB889FF1DF1B1A700D17FCF /* BoyacaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB889FE1DF1B1A700D17FCF /* BoyacaModel.swift */; };
 		EDB88A021DF1B20600D17FCF /* BoyacaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB88A011DF1B20600D17FCF /* BoyacaViewController.swift */; };
 		EDB88A051DF1B23C00D17FCF /* BoyacaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB88A041DF1B23C00D17FCF /* BoyacaCell.swift */; };
@@ -55,6 +57,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		294C42C33BDAED71FE073DBC /* Pods-clubrecordarios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clubrecordarios.release.xcconfig"; path = "Pods/Target Support Files/Pods-clubrecordarios/Pods-clubrecordarios.release.xcconfig"; sourceTree = "<group>"; };
+		8DAC78207D666724AC8CECEE /* Pods_clubrecordarios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clubrecordarios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1C4B6D1DF976390085C786 /* DetailNationalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailNationalViewController.swift; sourceTree = "<group>"; };
 		ED1C4B6F1DF976820085C786 /* DetailBarranquillaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailBarranquillaViewController.swift; sourceTree = "<group>"; };
 		ED1C4B711DF976D20085C786 /* DetailBogotaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailBogotaViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 		ED99034A1DF6321400116258 /* CaliModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaliModel.swift; sourceTree = "<group>"; };
 		ED99034D1DF6326100116258 /* CaliViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaliViewController.swift; sourceTree = "<group>"; };
 		ED9903501DF6329200116258 /* CaliCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaliCell.swift; sourceTree = "<group>"; };
+		EDAC25161E5B9B3300AD03F5 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		EDB889FE1DF1B1A700D17FCF /* BoyacaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoyacaModel.swift; sourceTree = "<group>"; };
 		EDB88A011DF1B20600D17FCF /* BoyacaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoyacaViewController.swift; sourceTree = "<group>"; };
 		EDB88A041DF1B23C00D17FCF /* BoyacaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoyacaCell.swift; sourceTree = "<group>"; };
@@ -102,6 +107,7 @@
 		EDF593AD1DF0CFBB00712AB1 /* BogotaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BogotaViewController.swift; sourceTree = "<group>"; };
 		EDF593B01DF0CFE800712AB1 /* BogotaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BogotaModel.swift; sourceTree = "<group>"; };
 		EDF593B31DF0D10100712AB1 /* BogotaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BogotaCell.swift; sourceTree = "<group>"; };
+		F444777D34F8F205C00EE0A0 /* Pods-clubrecordarios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clubrecordarios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-clubrecordarios/Pods-clubrecordarios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,12 +115,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B569BBDE9E07A85C4BAC257 /* Pods_clubrecordarios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D915D924E97058588B6E076 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DAC78207D666724AC8CECEE /* Pods_clubrecordarios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9F012EEDB8136AAACEA1F8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F444777D34F8F205C00EE0A0 /* Pods-clubrecordarios.debug.xcconfig */,
+				294C42C33BDAED71FE073DBC /* Pods-clubrecordarios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ED1C4B6A1DF975640085C786 /* details */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,6 +343,8 @@
 			children = (
 				EDCAB8D01DE77BE50039260F /* clubrecordarios */,
 				EDCAB8CF1DE77BE50039260F /* Products */,
+				B9F012EEDB8136AAACEA1F8A /* Pods */,
+				0D915D924E97058588B6E076 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -338,6 +364,7 @@
 				EDE961E11DEB106500CB7758 /* View */,
 				EDCAB8D31DE77BE60039260F /* ViewController.swift */,
 				EDCAB8D11DE77BE60039260F /* AppDelegate.swift */,
+				EDAC25161E5B9B3300AD03F5 /* GoogleService-Info (1).plist */,
 				EDCAB8D51DE77BE60039260F /* Main.storyboard */,
 				EDCAB8DA1DE77BE60039260F /* LaunchScreen.storyboard */,
 				EDCAB8D81DE77BE60039260F /* Assets.xcassets */,
@@ -431,9 +458,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDCAB8E01DE77BE60039260F /* Build configuration list for PBXNativeTarget "clubrecordarios" */;
 			buildPhases = (
+				059D82738A466FC711033F46 /* [CP] Check Pods Manifest.lock */,
 				EDCAB8CA1DE77BE50039260F /* Sources */,
 				EDCAB8CB1DE77BE50039260F /* Frameworks */,
 				EDCAB8CC1DE77BE50039260F /* Resources */,
+				267D1A05AC219E4269039B46 /* [CP] Embed Pods Frameworks */,
+				5B4310CF59ED8DFE44A3C851 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -486,10 +516,59 @@
 				EDCAB8DC1DE77BE60039260F /* LaunchScreen.storyboard in Resources */,
 				EDCAB8D91DE77BE60039260F /* Assets.xcassets in Resources */,
 				EDCAB8D71DE77BE60039260F /* Main.storyboard in Resources */,
+				EDAC25171E5B9B3500AD03F5 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		059D82738A466FC711033F46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		267D1A05AC219E4269039B46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clubrecordarios/Pods-clubrecordarios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B4310CF59ED8DFE44A3C851 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clubrecordarios/Pods-clubrecordarios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EDCAB8CA1DE77BE50039260F /* Sources */ = {
@@ -658,10 +737,11 @@
 		};
 		EDCAB8E11DE77BE60039260F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F444777D34F8F205C00EE0A0 /* Pods-clubrecordarios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = clubrecordarios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clubrecordar.clubrecordarios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -671,10 +751,11 @@
 		};
 		EDCAB8E21DE77BE60039260F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294C42C33BDAED71FE073DBC /* Pods-clubrecordarios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = clubrecordarios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clubrecordar.clubrecordarios;
 				PRODUCT_NAME = "$(TARGET_NAME)";

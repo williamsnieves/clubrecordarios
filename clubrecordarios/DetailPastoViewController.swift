@@ -79,7 +79,11 @@ class DetailPastoViewController: UIViewController {
          }*/
         
         guard let number = URL(string: "telprompt://" + pastoData.phone) else { return }
-        UIApplication.shared.open(number, options: [:], completionHandler: nil)
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(number, options: [:], completionHandler: nil)
+        } else {
+            // Fallback on earlier versions
+        }
         
         print(number)
     }
