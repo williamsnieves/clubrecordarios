@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseInstanceID
+import FirebaseMessaging
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -85,6 +88,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         tableMain.delegate = self
         tableMain.dataSource = self
+        
+        FIRMessaging.messaging().subscribe(toTopic: "/topics/news")
         
     }
     
