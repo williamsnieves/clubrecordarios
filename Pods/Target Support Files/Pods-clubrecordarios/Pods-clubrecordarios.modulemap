@@ -1,0 +1,6 @@
+framework module Pods_clubrecordarios {
+  umbrella header "Pods-clubrecordarios-umbrella.h"
+
+  export *
+  module * { export * }
+}
